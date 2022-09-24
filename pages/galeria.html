@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/img/logo.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/estilo.css">
+
+	<title>PEPF</title>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<div class="gridConteiner">
+		<header>
+			<div class="row">
+				<div class="col-12 col-lg-3">
+					<div>
+						<a href="../index.html"><img src="../assets/img/logo.png" alt="logo pagina web" class="logo"></a>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="opciones">
+					<ul class="navbar-nav">
+						<li><a class="badge rounded-pill bg-primary text-dark" Home href="../index.html">Home</a></li>
+						<li><a class="badge rounded-pill bg-dark text-white" Recetas
+								href="../pages/recetas.html">Recetas</a></li>
+						<li><a class="badge rounded-pill bg-primary text-dark" Galeria
+								href="../pages/galeria.html">Galeria</a></li>
+						<li><a class="badge rounded-pill bg-dark text-white" Talleres
+								href="../pages/talleres.html">Talleres</a></li>
+						<li><a class="badge rounded-pill bg-primary text-dark" Contacto
+								href="../pages/contacto.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="col-12 col-lg-12">
+			<div class="galeria">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+							class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+							aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+							aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../assets/img/tortas.jpg" class="d-block w-100" alt="tortas">
+						</div>
+						<div class="carousel-item">
+							<img src="../assets/img/brownie.jpg" class="d-block w-100" alt="brownie">
+						</div>
+						<div class="carousel-item">
+							<img src="../assets/img/tartas.jpg" class="d-block w-100" alt="tartas">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- inicio de footer -->
+		<footer class="bgColor mt-25 p-25">
+			<a href="../index.html"><img src="../assets/img/logo.png" alt="logo pagina web"></a>
+			<div class="col-md-3 contact-data" id="contacto">
+				<h3 class="footer-title">Contactanos</h3>
+				<h4 class="footer-list list-unstyled">2235298222</h4>
+				<li>
+					<a href="mailto:pasteleo@gmail.com">Pasteleo@gmail.com</a>
+				</li>
+				<h5 class="direccion"> Cordoba 2185, Mar del Plata, Argentina
+				</h5>
+			</div>
+			<div>
+				<link rel="stylesheet"
+					href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+				<section class="buttons">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google-plus"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+				</section>
+			</div>
+		</footer>
+	</div>
+</body>

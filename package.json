@@ -1,0 +1,23 @@
+{
+  "name": "pasteleo-git",
+  "version": "1.0.0",
+  "description": "codigo que resuelve el diseño responsive en vista mobile y desktop\r maqueteado de paginas con bootstrap\r se modifico css y talleres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogumi/pasteleo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leogumi/pasteleo/issues"
+  },
+  "homepage": "https://github.com/leogumi/pasteleo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
